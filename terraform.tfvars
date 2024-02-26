@@ -1,0 +1,13 @@
+aws_access_key = "AKIAU6GDXO2ZOUDMWJ7K"
+aws_secret_key = "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"
+aws_region = "us-east-1"
+vpc_cidr = "172.10.0.0/16"
+vpc_name = "nag-devops-vpc"
+igw_name = "nag-devops-vpc-igw"
+public_cidrs = ["172.10.1.0/24","172.10.2.0/24","172.10.3.0/24"]
+private_cidrs = ["172.10.10.0/24","172.10.20.0/24","172.10.30.0/24"]
+azs = ["us-east-1a","us-east-1b","us-east-1c"]
+public_RT = "nag-devops-public-RT"
+private_RT = "nag-devops-private-RT"
+# key_name = "awskeypair"
+# env = "dev"
