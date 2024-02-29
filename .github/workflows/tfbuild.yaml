@@ -3,7 +3,7 @@ name: Terraform
 on:
   push:
     branches:
-      - FeatureBranch1
+      - FeatureBranch
 
 jobs:
   terraform:
