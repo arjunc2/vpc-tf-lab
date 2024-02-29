@@ -1,5 +1,5 @@
-aws_access_key = "xxxx"
-aws_secret_key = "xxx"
+# aws_access_key = "xxxx"
+# aws_secret_key = "xxx"
 aws_region = "us-east-1"
 vpc_cidr = "172.10.0.0/16"
 vpc_name = "nag-devops-vpc"
