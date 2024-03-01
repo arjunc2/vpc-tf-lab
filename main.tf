@@ -5,10 +5,10 @@ terraform {
 	  }
 	}
 	backend "remote" {
-    organization = "nag-tf-org"
+    organization = "nag-tf-org-1"
 
     workspaces {
-      name = "nag-tf-org-workspace"
+      name = "nag-tf-org-workspace-1"
     }
   }
 }
