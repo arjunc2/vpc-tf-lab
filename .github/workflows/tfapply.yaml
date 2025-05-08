@@ -10,8 +10,9 @@ jobs:
     name: Terraform CI/CD
     runs-on: ubuntu-latest
 
-    env:
-      AWS_DEFAULT_REGION: us-east-1  # Change if needed
+    permissions:
+      id-token: write    # Required for OIDC
+      contents: read     # Required to checkout code
 
     steps:
       - name: Checkout Repository
@@ -22,7 +23,7 @@ jobs:
         with:
           terraform_version: 1.7.4
 
-      - name: Configure AWS Credentials
+      - name: Configure AWS Credentials via OIDC
         uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: arn:aws:iam::920372986500:role/github
