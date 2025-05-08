@@ -6,6 +6,5 @@ terraform {
   backend "s3" {
     bucket = "nagtfbackends3tfstate"
     key    = "path/to/my/key"
-    region = "${var.aws_region}"
   }
 }
