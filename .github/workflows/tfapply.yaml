@@ -11,10 +11,6 @@ jobs:
     # env:
     #   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_KEY_ID }}
     #   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ID }}
-<<<<<<< HEAD
-=======
-    #   aws-region: us-east-1  # or your desired region
->>>>>>> af64c1fba1727b5698103f1360b51d7d4e6b950d
 
     steps:
       - name: Checkout code
